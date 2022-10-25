@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text title">Confira nossa seleção:</h1>
+<div class="grid-container-large">
+    <div class="grid-item-large">
+        <a class="text brown-text" asp-area="" asp-controller="Start" asp-action="Exquisite">
+            <img class="grid-image-large" src="~/images/rolls-royce.png" />
+            <h2 class="text grid-title-large">Exótico</h2>
+            <h3 class="text grid-subtitle-large">A partir de R$1.500.000,00</h3>
+        </a>
+    </div>
+    <div class="grid-item-large">
+        <a class="text brown-text" asp-area="" asp-controller="Start" asp-action="Luxury">
+            <img class="grid-image-large" src="~/images/mercedes-benz.png" />
+            <h2 class="text grid-title-large">Luxo</h2>
+            <h3 class="text grid-subtitle-large">A partir de R$350.000,00</h3>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,132 @@
+* {
+    background-color: #000000;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #000000;
+}
+
+.logo {
+    height: 80px;
+    width: 220px;
+}
+
+.title {
+    color: #cdc8c1;
+    font-size: 80px;
+}
+
+.subtitle {
+    color: #cdc8c1;
+    font-size: 20px;
+}
+
+.grid-container-large {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 500px;
+    grid-gap: 5%;
+    background-color: black;
+    padding: 20px;
+}
+
+.grid-container-small {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 250px;
+    grid-gap: 1.5%;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-item-large {
+    background-color: black;
+    border: 2px solid #cdc8c1;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.grid-item-small {
+    background-color: black;
+    border: 2px solid #cdc8c1;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.grid-image-large {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 500px;
+    background-color: none;
+}
+
+.grid-image-small {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 125px;
+    width: 250px;
+    background-color: none;
+}
+
+.grid-title-large {
+    font-size: 60px;
+    color: #716452;
+    text-align: right;
+}
+
+.grid-title-small {
+    font-size: 30px;
+    color: #716452;
+    text-align: right;
+}
+
+.grid-subtitle-large {
+    font-size: 30px;
+    color: #cdc8c1;
+    text-align: right;
+}
+
+.grid-subtitle-small {
+    font-size: 15px;
+    color: #cdc8c1;
+    text-align: right;
+}
+
+.text {
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+}
+
+.brown-text {
+    color: #716452;
+}
+
+.light-brown-text {
+    color: #cdc8c1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #716452;
+}
